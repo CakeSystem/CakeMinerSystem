@@ -367,6 +367,14 @@ ISSUE() {
     echo "3.7.1"
     echo "3.7.2"
     echo "3.7.3"
+    echo "3.8.0"
+    echo "3.9.0"
+    echo "3.9.1"
+    echo "3.9.2"
+    echo "3.9.3"
+    echo "3.9.4"
+    echo "3.9.6"
+    echo "3.9.7"
     echo "3.9.8"
 }
 
