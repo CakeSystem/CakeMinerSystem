@@ -189,6 +189,52 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+3.9.93已发布
+
+修复上个版本KAS > 6.5T端口无法正常工作的问题
+修复部分小币种特殊机型抽不够的问题
+
+Fix the issue of KAS>6.5T port not working properly in the previous version
+Fix the issue of insufficient drawing for some small currency special models
+
+Исправление неполадок с портом 6.5T предыдущей версии KAS >
+Исправление недостатков в некоторых специальных моделях небольших валют
+
+3.9.92已发布
+
+【重要更新】优化了网络波动下导致矿机随机掉线（部分神马阿瓦隆机型会死机）的问题
+端口配置增加替换矿工名
+更新kas>6.5T机型端口
+
+[Important Update] Optimized the issue of mining machines randomly dropping due to network fluctuations (some Shenma Avalon models may crash)
+Add and replace miner names in port configuration
+Update kas>6.5T model ports
+
+« Важное обновление» оптимизирует проблемы, которые приводят к случайным отключениям шахтеров при колебаниях сети (некоторые модели Shenma Avalon умирают)
+Настройка порта Добавить имя шахтера
+Обновление порта Kas > 6.5T
+
+3.9.91已发布
+
+更新了IRON的新算法
+
+Updated IRON's new algorithm
+
+Обновлен новый алгоритм IRON.
+
+
+3.9.9
+[重要更新] 修复了过去几个版本容易掉线的问题（这个问题是由于本地网络波动导致的, 现在不会了）
+
+[重要更新] 增加了一处被cc攻击的防御补丁
+
+[Important update] Fixed the issue of easy disconnections in previous versions (this issue was caused by local network fluctuations and is no longer present)
+[Important update] Added a defense patch for CC attack
+
+[Важное обновление] устраняет проблему, из - за которой предыдущие версии были легко отключены (проблема, вызванная волатильностью локальной сети, теперь не будет)
+[Важное обновление] Добавлен защитный патч, атакованный CC
+
+
    3.7.3
    增加是否强制下发成功份额开关
 
