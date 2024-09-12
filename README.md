@@ -2,6 +2,11 @@
 
 <div align="center">
 
+# <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点此查看!</a>
+
+
+
+
 <img src="./image/logo.png" alt="Logo" width="170">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=CakeMinerSystem)](https://git.io/typing-svg)
@@ -189,6 +194,24 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+
+4.0.0已发布
+传统代理增加FB
+修复矿池节点关闭旋转动画不生效的问题
+
+4.0.0-beta-0.2已发布
+
+修复矿池节点S19Kpro无法接入的问题
+修复传统代理统计图表混乱问题
+修复矿池节点自定义证书相关问题
+矿池官网可行化配置增加旋转LOGO开关
+
+4.0.0-beta+0.1已发布
+增加BTC矿池节点, 在菜单中选中矿池节点即可使设备成为矿池节点
+
+3.9.94已发布
+所有币种全部应用了上个版本BTC的抗网络波动方式， 整体稳定性大幅提升。
+
 3.9.93已发布
 
 修复上个版本KAS > 6.5T端口无法正常工作的问题
