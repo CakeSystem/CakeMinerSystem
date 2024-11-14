@@ -194,6 +194,26 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.1.5 已发布
+修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题（RMS同时也更新了1.2.6版本， 使用RMS接入请更新客户端（1.2.6）以及服务端（4.1.5））
+
+RMS 1.2.6已发布
+修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题
+
+
+4.1.4 已发布
+
+修复矿池节点端口显示、隐藏、自定义地址非同步BUG
+增加矿池节点非同步配置编辑
+矿池节点增加子账号管理
+矿池节点费率付款日志增加收入来源信息
+子账号管理目前可查看子账号相关信息
+子账号管理增加单独设置费率、返佣、以及管理员观察者
+矿池官网增加移动端访问二维码，扫码可免登录访问
+矿池官网增加子账号观察者链接
+矿池官网增加导出收益日志（excel, csv）
+矿池官网细节优化
+
 4.1.3 已发布
 
 增加FB双挖，过去单挖BTC的FB收益已累积，请在矿池首页进行账单查询及配置付款
