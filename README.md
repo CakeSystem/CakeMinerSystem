@@ -194,6 +194,29 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.3.4 已发布
+【重要更新】
+对于已经更新了4.3.2的用户，请务必更新至4.3.4，由于4.3.2的日志在未关闭的情况下发布，矿机接入后会快速将硬盘打爆从而引发操作系统崩溃，请务必更新
+
+完美兼容whalepool
+
+Perfect compatibility with whalepool
+
+
+4.3.2 已发布
+
+兼容了whalepool的KASPA
+
+端口配置增加内核信息修改
+
+Compatible with whalepool's KASPA
+
+Added kernel information modification to Port configuration
+
+4.3.1 已发布
+
+【重要更新】修复RMS2端口一个潜在被攻击导致内存溢出的风险（如果您的RMS2端口被攻击者攻击，会导致软件瞬间重启）
+
 4.3.0 已发布
 
 新增RMS2端口协议，配合新的RMS本地客户端，数据体积可压缩百分之30-50
