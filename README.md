@@ -194,15 +194,26 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.1 已发布
+
+修复L7、L9在某些网络环境下矿池掉线但机器没掉线导致无法自动重启的BUG（如果使用了cakeminer3, 请一并更新CakeMiner）
+
+增加矿池节点模板功能，后续会陆续热更新模板
+
+Fixed the BUG where the mining pool of L7 and L9 was disconnected but the machine was not, resulting in the inability to automatically restart. (If cakeminer3 was used, please update CakeMiner at the same time.)
+
+Add the function of the mining pool node template, and the templates will be updated in a hot manner successively in the future
+
 4.5.0 已发布
 
-【重磅】增加RMS3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（RMS3将不兼容2和1）。
+【重磅】增加CakeMiner3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（CakeMiner3将不兼容2和1）。
 
 若干BUG修复
 
-【 Breaking News 】 The RMS3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (RMS3 will not be compatible with 2 and 1).
+【 Breaking News 】 The CakeMiner3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (CakeMiner3 will not be compatible with 2 and 1).
 
 Several BUG fixes
+
 
 4.4.9 已发布
 
@@ -222,7 +233,6 @@ Fixed an issue where the LTC rate display on the official website was not synchr
 
 矿池节点底层 BTC、LTC 及赠币更新（旧版节点将全面停用）
 (更新前注意下记得删掉旧的 BTC 和 LTC 矿池节点的端口，否则更新后这些端口还会被 占用但是看不到在哪里)
-
 Update of the underlying BTC, LTC and bonus coins of the mining pool nodes (all old version nodes will be completely discontinued)
 Before updating, please remember to delete the ports of the old BTC and LTC mining pool nodes. Otherwise, after the update, these ports will still be occupied but you won't be able to see where they are.
 
@@ -230,7 +240,6 @@ Before updating, please remember to delete the ports of the old BTC and LTC mini
 
 增加 ALEO 冰河端口, 冰河 ALEO 请单独创建ALEO(ICERIVER)币种
 请注意，鱼池的冰河挖矿地址为 aleo.f2pool.com:4440
-
 Add the ALEO Glacier port. For Glacier ALEO, please create the ALEO(ICERIVER) currency separately
 Please note that the glacier mining address of the fishpond is aleo.f2pool.com:4440
 
@@ -256,15 +265,18 @@ https://rustminersystem.gitbook.io/rustminersystem/kuang-chi-jie-dian-yong-hu-du
 Traditional agent adds NEX currency
 
 4.4.3 已发布
+
 支持ALEO芯片机 -注意，只能同池抽水，不能跨池。
 （ALEO端口现在可以跑芯片机了，且只能跑芯片机，但是不能跑GPU锄头，GPU锄头也不准备支持了）
 
 Support ALEO chip machine - Note that water can only be pumped in the same pool, not across pools.
 (ALEO port can now run the chip machine, and only run the chip machine, but can not run the GPU hoe, GPU hoe is not ready to support)
 
+
 4.4.2 已发布
 彻底修复全机型LTC（ 包含追风以及福禄LTC, 福禄LTC请在端口处打开福禄LTC优化，跨池抽至viabtc有拒绝不影响客户，请等待viabtc近一周矿池端修复）
 Complete repair of all models of LTC(including Chifeng and Fulu LTC, Fulu LTC please turn on the optimization of Fulu LTC at the port base change, if the cross-pool pumping to viabtc is rejected, it will not affect customers, please wait for viabtc to repair the mine end in about a week)
+
 
 4.4.1 已发布
 
@@ -306,11 +318,11 @@ Added kernel information modification to Port configuration
 
 4.3.1 已发布
 
-【重要更新】修复RMS2端口一个潜在被攻击导致内存溢出的风险（如果您的RMS2端口被攻击者攻击，会导致软件瞬间重启）
+【重要更新】修复CakeMiner2端口一个潜在被攻击导致内存溢出的风险（如果您的CakeMiner2端口被攻击者攻击，会导致软件瞬间重启）
 
 4.3.0 已发布
 
-新增RMS2端口协议，配合新的RMS本地客户端，数据体积可压缩百分之30-50
+新增CakeMiner2端口协议，配合新的CakeMiner本地客户端，数据体积可压缩百分之30-50
 
 矿池节点开放所有币种起付额设置
 
@@ -335,10 +347,10 @@ Added kernel information modification to Port configuration
 优化了服务器流量上下行显示不准确的问题
 
 4.1.5 已发布
-修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题（RMS同时也更新了1.2.6版本， 使用RMS接入请更新客户端（1.2.6）以及服务端（4.1.5））
+修复CakeMiner相关问题，在通过CakeMiner接入大量机器时，跑一段时间服务器会无法接入矿机的问题（CakeMiner同时也更新了1.2.6版本， 使用CakeMiner接入请更新客户端（1.2.6）以及服务端（4.1.5））
 
-RMS 1.2.6已发布
-修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题
+CakeMiner 1.2.6已发布
+修复CakeMiner相关问题，在通过CakeMiner接入大量机器时，跑一段时间服务器会无法接入矿机的问题
 
 
 4.1.4 已发布
@@ -354,6 +366,7 @@ RMS 1.2.6已发布
 矿池官网增加导出收益日志（excel, csv）
 矿池官网细节优化
 
+
 4.1.3 已发布
 
 增加FB双挖，过去单挖BTC的FB收益已累积，请在矿池首页进行账单查询及配置付款
@@ -366,12 +379,12 @@ RMS 1.2.6已发布
 修复4.1.0和4.1.1多数币种大面积出问题的BUG
 
 4.1.1 正式版已发布
-修复4.1.0RMS掉线问题
+修复4.1.0CakeMiner掉线问题
 
 4.1.0 正式版已发布
 增加兼容模式，在费率配置处配置，ALEO、追风L9请使用此模式
 增加ALEO（请开启兼容模式， 内核抽水请使用替换钱包功能拦截）
-修复了一个导致RMS压缩卡死的BUG
+修复了一个导致CakeMiner压缩卡死的BUG
 
 4.0.0已发布
 传统代理增加FB
@@ -391,7 +404,6 @@ RMS 1.2.6已发布
 所有币种全部应用了上个版本BTC的抗网络波动方式， 整体稳定性大幅提升。
 
 3.9.93已发布
-
 修复上个版本KAS > 6.5T端口无法正常工作的问题
 修复部分小币种特殊机型抽不够的问题
 
@@ -436,6 +448,156 @@ Updated IRON's new algorithm
 [Важное обновление] Добавлен защитный патч, атакованный CC
 
 
+   3.9.8已发布
+
+   [重要更新]  增加安全访问地址，现在可以通过菜单 - 设置安全访问地址进行设置，设置此项可有效防止后台被扫描，防止爆破
+
+   优化ETC 从3.9.3-3.9.7抽不够的问题
+
+   完整的中文、俄语、英语语言包
+
+   增加了老旧矿机优化的开关，不需要的用户可关闭
+
+   程序整体稳定性提升
+
+   3.9.7已发布
+   修复ZEPH相关BUG
+   增加SDR
+   重构了端口编辑、添加窗口
+
+   3.9.6
+   增加GRIN、SPACE币种
+
+   针对BTC鱼池、蚂蚁、币印互相跨池的深度优化
+
+   修复ZEPH在部分矿池掉线的问题
+
+   修复强制下发成功份额导致的一些小币种掉线的BUG
+
+   优化所有kawpow算下的币种，在herominer的掉线情况
+
+   增加KENC自定义key配置，基于RSA128加密类型的三方客户端秘钥配置可在 设置 -> KENC自定义秘钥中进行管理
+
+   矿池波动异常优化, 矿池方向网络极端差的情况下CPU波动不再频繁
+
+   修复一些情况下编辑端口导致端口被占用的问题
+
+   修复有时候登录失败的BUG
+
+   修复部分情况下导入kas端口看不到的问题
+
+   增加端口批量操作
+
+   增加了一处cc攻击的防御措施
+   
+   
+   3.9.4已发布
+
+   修复TTS双协议端口监听消失的BUG
+ 
+   优化心跳包检测逻辑, 避免了极端情况下少量连接留存的问题, 程序更稳定
+
+   优化矿池方向高延迟以及异常情况下带来的负面影响
+
+   增加AIPG
+
+   3.9.3已发布
+
+   增加IRON、DOGETHER
+
+   3.9.2已发布
+
+   增加pyi
+   
+   修复如果代理矿池是ip+ssl+假证书的情况下，无法连接的问题
+
+   页面细节调整
+
+   3.9.1已发布
+   
+   增加BEL
+
+   修复了BLOCX无法在Mining-Dutch矿池工作的bug
+
+   创建端口时，币种选择器改为可搜索，方便使用
+
+   均线图表现在跟随小时平均组件设置显示
+
+   修复了一处接口报错
+
+   3.9.0已发布
+   [重要更新]
+   全币种算法整体优化, 抗波动性更强更精准
+
+   增加了BLOCX RTM RTC MECU MAXE NIKI SUBI MEWC NEVO币种
+
+   增加了tcp/tls双协议端口
+
+   修复了矿池方向是TLS并且池子网络波动的情况下, 导致CPU异常升高的问题
+
+   支持设置指定钱包下所有设备的手续费比例单独调整（设备列表页 -> 钱包列表页面进行设置）
+
+   更新了算力显示，现在目标算力显示的是完整算力而不是扣除手续费之后的算力
+
+   增加币种、端口、设备的历史延迟图表
+
+   增加了24H平均线显示
+
+   页面诸多细节调整
+
+   优化sc算力显示
+
+   3.8.2
+   增加KLS
+
+   优化一处CPU及内存占用
+
+   3.8.0已发布
+
+   增加了对 NEXA CLORE NEURAI NEOXA ZIL 
+   CLO UBQ EGAZ ELH AVS CAU PAC PWR 
+   BTN DUBX XPB REDEV2 RTH 
+   这些币种的支持
+
+   开放了群控功能
+
+   优化矿机显示在线时长逻辑
+
+   关闭了验证码
+
+   替okminer优化连不进来的矿机（无法连接okminer的矿机，可通过cake接入okminer）
+
+   增加钱包黑名单功能
+
+   优化了由于矿池网络波动导致算力计算偏差的bug（此前触发概率极低）
+
+   优化了RVN算法相关逻辑
+
+   [CakeMiner 1.0.0] CakeMiner更新
+
+   开放CakeMiner连接池模式 
+
+   [!!!注意：连接池模式需要对应接入的rust服务端版本 >= 3.8.0]
+
+   (
+      如需使用CakeMiner公网连接数压缩功能, 请在CakeMiner客户端右上角设置里选择切换模式,
+   然后选择连接池, 设置最大连接数。 
+
+      以下为压缩率计算公式：
+   
+      压缩率 = 接入矿机数量 / 最大连接数
+
+      压缩率不要太高, 最大连接数设置的越大，硬件负载越小
+      通常3-5倍的压缩率即可, 根据CakeMiner所在设备以及服务器硬件情况自行斟酌
+
+      此处压缩的是CakeMiner至服务器中间的公网tcp数量, 并非简单的矿机合并
+   )
+
+   CakeMiner 增加密码配置, 右上角设置内可设置CakeMiner的访问账号密码
+
+   CakeMiner 增加手动模式, 可自己添加指定CakeMiner协议的服务器ip+端口
+   
+   
    3.7.3
    增加是否强制下发成功份额开关
 
@@ -492,7 +654,7 @@ Updated IRON's new algorithm
 
    稳定性提升 优化了极小概率矿池和矿机同时发生不稳定的情况下，导致连接数爆炸的问题
 
-   修复了一个关联rms的小bug，修复编辑Cake端口的时候导致rms矿机半天进不来的问题
+   修复了一个关联CakeMiner的小bug，修复编辑Cake端口的时候导致CakeMiner矿机半天进不来的问题
 
    增加了所有ip访问的日志
 
@@ -504,10 +666,10 @@ Updated IRON's new algorithm
 
    页面细节优化
 
-   [rms更新]
-   更新了rms的安装脚本，更广泛的兼容各种盒子
+   [CakeMiner更新]
+   更新了CakeMiner的安装脚本，更广泛的兼容各种盒子
 
-   rms更新，修复推送地址前如果有代理，如果Cake关闭但是请求没有响应时启动不起来的bug
+   CakeMiner更新，修复推送地址前如果有代理，如果Cake关闭但是请求没有响应时启动不起来的bug
 
    [币种更新]
    增加dnx以及mallob的代理转发
@@ -578,7 +740,7 @@ Updated IRON's new algorithm
    octa、etc等ethash算法币种, 不同协议的矿机币种在同一个端口工作，也可正常统计不同协议的算力了
 
    3.3.0
-   RMS客户端发布
+   CakeMiner客户端发布
 
    修复无法导入配置的bug
 
@@ -616,7 +778,7 @@ Updated IRON's new algorithm
 
    彻底解除跨池抽水限制
 
-   开放了RMS服务的配置
+   开放了CakeMiner服务的配置
 
    优化了抽水的精准度，现在大算力波动的机器也能抽到较为精准的比例了
 
@@ -932,8 +1094,9 @@ Updated IRON's new algorithm
 
 
 
+
 [CakeSystem.io]: https://github.com/CakeSystem/CakeSystem
-[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v3.6.0-green?logo=Cake
+[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v4.5.1-green?logo=Cake
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/CakeSystem/CakeSystem/releases
 [stars-url]: https://github.com/CakeSystem/CakeSystem/stargazers
