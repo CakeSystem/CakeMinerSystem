@@ -194,6 +194,48 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.0 已发布
+
+重要安全性更新，堵上了一处可能被爆破入侵的漏洞(但还是建议管理好web端口)
+移除了登录时的图形验证码
+优化了图表数据的统计机制，现在处理图表数据时大大降低带宽压力
+新增Zstd Rms3算法，此算法对CPU更加友好
+增加Foundry矿池优化开关，如果需要跑Foundry池请打开Foundry优化。
+
+CMS 3.1.4已发布，新增Zstd压缩算法
+
+4.5.9 已发布
+
+修复卸载软件再安装软件后二步验证配置逻辑问题
+增加RMS自定义推送配置，现在RMS可以自定义推送地址内容了
+修复矿池节点子账号管理在某些情况下搜不出子账号的显示bug
+修复rust后台矿池节点内抽账单日期显示有时候会多一天的bug
+
+Fixed the issue with the two-step verification configuration logic after uninstalling and reinstalling the software
+The RMS custom push configuration has been added. Now, RMS can customize the content of push addresses
+Fixed the bug where sub-accounts could not be found in the account management of the mining pool's sub-accounts under certain circumstances
+Fixed the bug where the date for drawing bills in the rust background mining pool node sometimes showed an extra day
+
+4.5.8 已发布
+
+新的BTC矿池节点
+增加矿池APP通信配置
+
+New BTC mining pool nodes
+Increase the communication configuration of the mining pool APP
+
+
+4.5.7 已发布
+
+替换钱包功能现在可以使用*通配符了, 可以替换端口内所有钱包
+修复矿池节点官网首页图标资源加载失败的问题
+优化矿池节点官网样式
+
+The wallet replacement function can now use * wildcards to replace all wallets within the port
+Fixed the issue where the icon resources on the homepage of the mining pool node's official website failed to load
+Optimize the official website style of the mining pool nodes
+
+
 4.5.6 已发布
 
 增加针对指定操作开启二步验证功能
