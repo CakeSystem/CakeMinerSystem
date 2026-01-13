@@ -194,6 +194,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.2 已发布
+
+【重要更新】修复近几个版本矿机以及端口上图表的份额会一直累加的bug，虽然只影响显示，但是时间久了内存会爆掉。
+
+4.6.1 已发布
+
+增加透明代理协议
+修复CMS推送地址拉不到zstd算法端口的bug
+修复一些国家服务器时区导致登录失败的bug
+修复了一处图表统计的bug
+修复设备总量图表时间不对的bug
+
 4.6.0 已发布
 
 重要安全性更新，堵上了一处可能被爆破入侵的漏洞(但还是建议管理好web端口)
